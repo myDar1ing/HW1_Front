@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="hw7_style.css">
+        <title>Selectors</title>
+    </head>
+    <body>
+        <div id="header">
+        <h1>Homework5</h1>
+        <h2>CSS Selectors</h2>
+        </div>
+
+        <p id="header">First selector</p>
+        <p class="bolded">Second selector</p>
+        <p>Third selector</p>
+        <p id="header" class="bolded">Fourth selector</p>
+        <!-- Выше я создал четыре абзаца и им поставил три разных селектора. Первый по айди, второй по классу, третий по элементу, четвертый все вместе вязтые. 
+         Для сравнение я взял цвет текста. Для тега фиолетовый, для класса синий, для айди красный. Для первого текста, айди в приоритете, хотя,
+         по тегам должен быть фиолетовым. Второй текст, цвет синий, получается класс выше тега. В третьем, фиолетовый, ибо нет конфликтующих стилей. А последний текст,
+         его цвет красный, по айди. Получается, айди имеет высший приоритет, чем тег и класс. В общем, по приоритету: айди, класс, тег -->
+        <ol class="bolded">
+            <li>Banana</li>
+            <li>Cherry</li>
+            <li>Rawsberry</li>
+            <li>Pineapple</li>
+            <li>Pomegranate</li>
+        </ol>
+        <ul class="bolded">
+            <li>Wake up</li>
+            <li>Make a bed</li>
+            <li>brush the teeth</li>
+            <li>Morning exercise</li>
+            <li>Dress up</li>
+            <li>Go to university </li>
+        </ul>
+    </body>
+</html>

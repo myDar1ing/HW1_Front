@@ -1,0 +1,14 @@
+p{
+    color : blueviolet;
+    font-size: larger;
+    
+}
+.bolded {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: small;
+    color: blue;
+}
+#header {
+    color : red;
+}
