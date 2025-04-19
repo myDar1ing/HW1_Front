@@ -1,0 +1,63 @@
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: burlywood;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    padding: 1px;
+    margin: 1px;
+}
+
+body{
+    background-image: url('https://xmple.com/wallpaper/white-blue-gradient-linear-1920x1080-c2-ffffff-add8e6-a-255-f-14.svg');
+}
+
+.fordiv{
+    padding: 5px;
+    border: 1px solid black;
+    text-align: left;
+    margin-bottom: 30px;
+    font-weight: bold;
+    background-color: beige;
+    overflow: visible;
+}
+
+#profile-image {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+
+legend{
+    color: cadetblue;
+    border-bottom: 2px solid lightgray;
+    padding: 1px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+p7{
+    margin-right: 20px;
+    background-color: lightgray;
+}
+#bottom-left{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    font-size: 17px;
+    color: lightblue;
+    margin: 20px;
+}
+ul{
+    list-style-type: none;
+    margin: 1px;
+    margin-bottom: 50px;
+}
+
+#oneback{
+    color: beige;
+}
